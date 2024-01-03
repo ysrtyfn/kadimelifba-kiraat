@@ -1,4 +1,4 @@
-package com.kadimelifba.kiraat.ui.theme
+package com.kadimelifba.kiraat.takdim.tarz
 
 import androidx.compose.ui.graphics.Color
 
