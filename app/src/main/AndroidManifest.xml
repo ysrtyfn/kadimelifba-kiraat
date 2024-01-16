@@ -8,15 +8,14 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kıraat"
+        android:theme="@style/Theme.KıraatKarsilama"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Kıraat">
+            android:label="@string/faaliyet_merkezi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -77,8 +77,8 @@ dependencies {
 
     ksp("androidx.room:room-compiler:$roomVersion")
     implementation("androidx.room:room-ktx:$roomVersion")
-    implementation("androidx.room:room-runtime:$$roomVersion")
-    annotationProcessor("androidx.room:room-compiler:$$roomVersion")
+    implementation("androidx.room:room-runtime:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
 
     implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.10"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
@@ -93,7 +93,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.6")
     implementation("androidx.navigation:navigation-runtime-ktx:2.7.6")
 
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.1.0-alpha02")
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
 //    implementation("com.squareup.retrofit2:converter-scalars:2.9.0") // Retrofit with scalar Converter
