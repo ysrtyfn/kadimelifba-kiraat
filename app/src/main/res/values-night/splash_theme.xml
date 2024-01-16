@@ -3,7 +3,7 @@
     <!-- Splash Screen Theme. -->
     <style name="Theme.KıraatKarsilama" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/gece_vaziyet_cubugu</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/alameti_tatbikat_gece</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/alameti_tatbikat_hilal_gece</item>
         <item name="windowSplashScreenAnimationDuration">700</item>
         <item name="postSplashScreenTheme">@style/Theme.Kıraat</item>
 
